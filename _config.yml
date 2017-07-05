@@ -5,7 +5,7 @@ welcome_message: 我们在一起，就是学习共同体!
 description: 秉持佐藤学先生学习共同体之哲学理念，展示两岸三地理论研究与实践探索之材料。
 creator: <a href="http://www.slc.education">@ 学习共同体联合会</a>
 
-url: "http://www.slc.education/blog"
+url: "http://www.slc.education/blog/#blog"
 
 permalink: /:categories/:title
 
