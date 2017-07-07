@@ -23,9 +23,10 @@ blog_button:
     description: 访问博客
 
 nav:
-    - {title: 主页,     in_site: false,  description: 联合会主页,    url: 'http://slc.education'}
+    - {title: 主页,       in_site: false,  description: 联合会主页,    url: 'http://slc.education'}
     - {title: 目录,        in_site: true,  description: 博客目录,               url: '/timeline'}
-    - {title: 关于,        in_site: true,  description: 关于作者 GcsSloop,       url: '/info/about'}
+    - {title: 关于,        in_site: true,  description: 关于联合会,       url: '/info/about'}
+    - {title: 友链,        in_site: false,  description: 友情链接,       url: '/friends'}
     
 
 
