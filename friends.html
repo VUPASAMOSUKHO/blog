@@ -1,59 +1,58 @@
 ---
 layout: post
 category: Info
-title: 目录视图
+title: 友情链接
 date: 1970-01-01 00:00:00.000000000 +00:00
-tags: GcsSloop, info
-keywords: GcsSloop, gcssloop
-excerpt: 博客时间线
+tags: slc, info
+keywords: SLC, 学习共同体, 联合会, 陈静静, 佐藤学
+excerpt: 博客友情链接
 ---
-
-<!-- SiteSearch Google -->
-
-<form class="google-search" method="get" action="http://www.google.com/search" target="_blank">
-  <div class="search-wrap">
-    <div width="100%">
-      <div width="100%">
-      <input type="text" name="q" value=""/>
-      <input type="submit" src="/assets/siteinfo/search_bg.png" alt="Submit" width="80" height="24" value="搜索" />
-      </div>
-      <input type="hidden" name="domains" value="{{ site.url }}" /> 
-      <input type="hidden" name="sitesearch" value="{{ site.url }}" />
-      <input type="hidden" name="ie" value="utf-8" />
-      <input type="hidden" name="oe" value="utf-8" />
-      <input type="hidden" name="hl" value="zh-CN" />
+ <header class="post-header">
+    <div class="post-meta" style="font-size:.8em">
+      <time datetime="1970-01-01 08:00:00 +0800" itemprop="datePublished" class="post-meta__date date">1970-01-01</time> &#8226; <span class="post-meta__tags tags">GcsSloop, info</span> &#8226; View <span id="busuanzi_value_page_pv"></span> times.
+</span>
     </div>
-  </div>
-</form>
+    <h1 class="post-title">合作伙伴</h1>
+  </header>
 
-<div style="margin: 10px 0 20px 0;">
-  站内搜索功能由谷歌提供，需科学上网。
+  <section class="post">
+    <p>来自两岸三地的同仁和合作组织共同推动着学习共同体理念的倡导与发展。</p>
+
+<div class="friendsdiv">
+  <a href="http://adream.org" target="_blank">
+    <img src="/assets/siteinfo/friends/gank.jpg" />
+    上海真爱梦想公益基金会
+  </a>
+
+  <a href="http://jfy.pudong-edu.sh.cn/" target="_blank">
+    <img src="/assets/siteinfo/friends/darkeet.jpg" />
+    上海市浦东教育发展研究院
+  </a> 
+
+  <a href="http://www.chinateacher.com.cn/" target="_blank">
+    <img src="/assets/siteinfo/friends/androiddevtools_cn.png" />
+    中国教师报
+  </a> 
+
+  <a href="http://https://sites.google.com/site/learningcommunityintw/" target="_blank">
+    <img src="/assets/siteinfo/friends/androidweekly_cn.png" />
+    学习领导与学习共同体计划
+  </a> 
+
+  <a href="http://lstudy.weebly.com/" target="_blank">
+    <img src="/assets/siteinfo/friends/diycode.jpg" />
+    台湾学习共同体研究会
+  </a> 
+
+  <a href="http://www.slc.education" target="_blank">
+    <img src="/assets/siteinfo/friends/gcssloop.jpg" />
+    学习共同体联合会
+  </a> 
 </div>
 
-<!-- SiteSearch Google -->
-
-  <ol class="time-line">
-    <hr />
-    <!--置顶-->
-    {% for post in site.posts %}
-      {% if post.istop %}
-        <li>
-          <h1 class="time-line-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">[置顶]{{ post.title }}</a></h1>
-          <div class="time-line-mate"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.category }}</span> </div>
-        </li>
-      {% endif %}
-    {% endfor %}
-        <!--置顶-->
-    {% for post in site.posts %}        
-      {% if post.istop %}
-      {% else %}
-        <li>
-          <h1 class="time-line-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h1>
-          <div class="time-line-mate"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.category }}</span></div>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ol>
+    <hr>
+  </section>
+</article>
 
 
 
